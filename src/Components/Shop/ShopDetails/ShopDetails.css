@@ -1,5 +1,5 @@
 .shopDetails {
-  padding: 0 160px;
+  padding: 40px 160px;
 }
 
 .shopDetailMain {
@@ -98,10 +98,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+
 }
 
 .sdProductContainer {
   position: relative;
+  width: 260px;
 }
 
 .sdProductImages {
@@ -111,6 +113,8 @@
   overflow: hidden;
   -webkit-transition: all 0.2s cubic-bezier(0.99, 0.99, 0, 0.61);
   transition: 0.3s linear;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
   -moz-transition: 0.3s linear;
   -o-transition: 0.3s linear;
 }
@@ -151,9 +155,11 @@
   top: 320px;
   text-align: center;
   padding: 10px;
-  background-color: rgb(253, 253, 253);
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.426);
   transition: all 0.2s cubic-bezier(0.99, 0.99, 0, 0.61);
   margin: 0 10px;
+  border-radius: 5px;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -169,6 +175,8 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  box-shadow: 0px 15px 10px -15px #dad9d9;
+
 }
 
 .sdProductCategoryWishlist {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./LoginSignUp.css";
+import "./LoginSignUp.scss";
 import { Link } from "react-router-dom";
 
 const LoginSignUp = () => {
@@ -14,9 +14,10 @@ const LoginSignUp = () => {
       <div className="loginSignUpSection">
         <div className="loginSignUpContainer">
           <div className="loginSignUpTabs">
-            <p
+            <p 
               onClick={() => handleTab("tabButton1")}
-              className={activeTab === "tabButton1" ? "active" : ""}
+              className={activeTab === "tabButton1" ? "active" : ""} 
+             
             >
               Login
             </p>
@@ -41,7 +42,7 @@ const LoginSignUp = () => {
                       <p>Remember me</p>
                     </label>
                     <p>
-                      <Link to="/resetPassword">Lost password?</Link>
+                      <Link  style={{color: "#c32929"}} to="/resetPassword">Lost password?</Link>
                     </p>
                   </div>
                   <button>Log In</button>

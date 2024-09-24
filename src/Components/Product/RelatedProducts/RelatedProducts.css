@@ -95,13 +95,16 @@
   top: 320px;
   text-align: center;
   padding: 10px;
-  background-color: rgb(253, 253, 253);
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.426);
   transition: all 0.2s cubic-bezier(0.99, 0.99, 0, 0.61);
   margin: 0 10px;
+  border-radius: 5px;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
   z-index: 3;
+  cursor: pointer;
 }
 
 .rpContainer:hover h4 {

@@ -7,9 +7,12 @@
 }
 
 .contactMap iframe {
-  width: 100%;
+  width: 60%;
   border: none;
+  border-radius: 30px;
   background-color: #e4e4e4;
+  display: block; 
+  margin: 0 auto; 
 }
 
 .contactInfo {
@@ -54,6 +57,7 @@
 
 .contactForm form input {
   padding: 15px;
+  border-radius: 5px;
   border: 2px solid #e4e4e4;
   color: #272727;
   outline-color: black;
@@ -62,6 +66,7 @@
 .contactForm form textarea {
   font-size: 14px;
   padding: 15px;
+  border-radius: 5px;
   border: 2px solid #e4e4e4;
   color: #272727;
   outline-color: black;
@@ -69,6 +74,7 @@
 
 .contactForm form button {
   width: 20%;
+  border-radius: 5px;
   background-color: black;
   color: white;
   border: none;
@@ -77,6 +83,10 @@
   font-weight: 500;
   font-size: 14px;
   cursor: pointer;
+}
+
+.contactForm form button:hover {
+  background-color: rgb(58, 54, 54);
 }
 
 @media screen and (max-width: 1210px) {

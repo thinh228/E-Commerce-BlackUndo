@@ -54,7 +54,9 @@
 }
 
 /* filter Sizes */
-
+.filterSizes {
+  margin-top: 10px;
+}
 .sizeButtons {
   display: flex;
   flex-wrap: wrap;

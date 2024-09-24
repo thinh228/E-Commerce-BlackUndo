@@ -53,8 +53,8 @@ const ShopDetails = () => {
       toast.error("Product limit reached", {
         duration: 2000,
         style: {
-          backgroundColor: "#ff4b4b",
-          color: "white",
+          backgroundColor: "red",
+          color: "black",
         },
         iconTheme: {
           primary: "#fff",

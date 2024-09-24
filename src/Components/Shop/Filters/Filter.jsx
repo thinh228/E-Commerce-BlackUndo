@@ -53,7 +53,7 @@ const Filter = () => {
     "Shorts",
     "Sweatshirts",
     "Swimwear",
-    "Jackets",
+    "h5ackets",
     "T-Shirts & Tops",
     "Jeans",
     "Trousers",
@@ -79,7 +79,20 @@ const Filter = () => {
   return (
     <div>
       <div className="filterSection">
-        <div className="filterCategories">
+        <div className="allFilter">
+        <Accordion defaultExpanded disableGutters elevation={0}>
+            <AccordionSummary
+              expandIcon={<IoIosArrowDown size={20} />}
+              aria-controls="panel1-content"
+              id="panel1-header"
+              sx={{ padding: 0, marginBottom: 2 }}
+            >
+        <h2>Filter</h2>
+        </AccordionSummary>
+            <AccordionDetails sx={{ padding: 0 }}>
+              
+            </AccordionDetails>
+            <div className="filterCategories">
           <Accordion defaultExpanded disableGutters elevation={0}>
             <AccordionSummary
               expandIcon={<IoIosArrowDown size={20} />}
@@ -87,7 +100,7 @@ const Filter = () => {
               id="panel1-header"
               sx={{ padding: 0, marginBottom: 2 }}
             >
-              <h5 className="filterHeading">Product Categories</h5>
+              <h6 className="filterHeading">Product Categories</h6>
             </AccordionSummary>
             <AccordionDetails sx={{ padding: 0 }}>
               {filterCategories.map((category, index) => (
@@ -104,7 +117,7 @@ const Filter = () => {
               id="panel1-header"
               sx={{ padding: 0, marginBottom: 2 }}
             >
-              <h5 className="filterHeading">Color</h5>
+              <h6 className="filterHeading">Color</h6>
             </AccordionSummary>
             <AccordionDetails sx={{ padding: 0 }}>
               {
@@ -134,7 +147,7 @@ const Filter = () => {
               id="panel1-header"
               sx={{ padding: 0, marginBottom: 2 }}
             >
-              <h5 className="filterHeading">Sizes</h5>
+              <h6 className="filterHeading">Sizes</h6>
             </AccordionSummary>
             <AccordionDetails sx={{ padding: 0 }}>
               <div className="sizeButtons">
@@ -161,7 +174,7 @@ const Filter = () => {
               id="panel1-header"
               sx={{ padding: 0, marginBottom: 2 }}
             >
-              <h5 className="filterHeading">Brands</h5>
+              <h6 className="filterHeading">Brands</h6>
             </AccordionSummary>
             <AccordionDetails sx={{ padding: 0 }}>
               {/* Search bar */}
@@ -210,7 +223,7 @@ const Filter = () => {
               id="panel1-header"
               sx={{ padding: 0, marginBottom: 2 }}
             >
-              <h5 className="filterHeading">Price</h5>
+              <h6 className="filterHeading">Price</h6>
             </AccordionSummary>
             <AccordionDetails sx={{ padding: 0 }}>
               <Slider
@@ -243,6 +256,9 @@ const Filter = () => {
             </AccordionDetails>
           </Accordion>
         </div>
+          </Accordion>
+        </div>
+        
       </div>
     </div>
   );

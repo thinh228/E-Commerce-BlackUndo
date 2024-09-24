@@ -1,5 +1,6 @@
 .productSection {
   padding: 0 160px;
+  margin-top: 50px;
 }
 
 .productShowCase {
@@ -195,6 +196,7 @@
   border: 1px solid;
   padding: 5px 15px;
   cursor: pointer;
+  border-radius: 5px; 
   transition: all 0.3s ease;
   outline: none;
 }
@@ -250,6 +252,7 @@
   display: flex;
   border: 2px solid #e0e0e0;
   padding: 0 10px;
+  border-radius: 5px;
 }
 
 .productQuantity button {
@@ -277,6 +280,10 @@
   border: none;
   cursor: pointer;
   white-space: nowrap;
+  border-radius: 5px;
+}
+.productCartBtn button:hover{
+  background-color: rgb(58, 54, 54);  
 }
 
 .productWishShare {

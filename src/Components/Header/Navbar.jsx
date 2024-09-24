@@ -217,9 +217,9 @@ const Navbar = () => {
           <Link to="/cart" onClick={scrollToTop}>
             <Badge
               badgeContent={cart.items.length === 0 ? "0" : cart.items.length}
-              color="primary"
+              color='warning'
               anchorOrigin={{
-                vertical: "bottom",
+                vertical: "top",
                 horizontal: "right",
               }}
             >
