@@ -5,10 +5,7 @@ import logo from "../../Assets/unnamed.jpg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-    alert("Subscribed Successfully");
-  };
+
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -105,40 +102,13 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="footer_right">
-            <h5>Subscribe</h5>
-            <p>
-              Be the first to get the latest news about trends, promotions, and
-              much more!
-            </p>
-
-            <form onSubmit={handleSubscribe}>
-              <input type="email" placeholder="Your email address" required />
-              <button type="submit">Join</button>
-            </form>
-
-            <h6>Secure Payments</h6>
-            <div className="paymentIconContainer">
-            </div>
-          </div>
         </div>
         <div className="footer_bottom">
           <p>
             © 2024 BlackUndo. 
 
           </p>
-          <div className="footerLangCurrency">
-            <div className="footerLang">
-              <p>Language</p>
-              <select name="language" id="language">
-                <option value="english">United States | English</option>
-                <option value="Hindi">Hindi</option>
-                <option value="Germany">Germany</option>
-                <option value="French">French</option>
-              </select>
-            </div>
           
-          </div>
         </div>
       </footer>
     </>

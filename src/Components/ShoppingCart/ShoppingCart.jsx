@@ -268,7 +268,7 @@ const ShoppingCart = () => {
                     </tfoot>
                   </table>
 
-                  {/* For Mobile devices */}
+                  {/* dien thoai*/}
 
                   <div className="shoppingBagTableMobile">
                     {cartItems.length > 0 ? (

@@ -12,7 +12,6 @@ const Home = () => {
       <Trendy />
       <DealTimer />
       <Banner />
-
       <Services />
     </>
   );

@@ -37,18 +37,18 @@ const BlogDetails = () => {
           </div>
           <div className="blogDetailsContent">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-              sapien dignissim a elementum. Sociis metus, hendrerit mauris id
-              in. Quis sit sit ultrices tincidunt euismod luctus diam. Turpis
-              sodales orci etiam phasellus lacus id leo. Amet turpis nunc, nulla
-              massa est viverra interdum. Praesent auctor nulla morbi non
-              posuere mattis. Arcu eu id maecenas cras. Eget fames tincidunt
-              leo, sed vitae, pretium interdum. Non massa, imperdiet nunc sit
-              sapien. Tempor lectus ornare quis mi vel. Nibh euismod donec elit
-              posuere lobortis consequat faucibus aliquam metus. Ornare
-              consequat, vulputate sit maecenas mauris urna sed fringilla. Urna
-              fermentum iaculis pharetra, maecenas dui nullam nullam rhoncus.
-              Facilisis quis vulputate sem gravida lacus, justo placerat.
+            Khách hàng rất quan trọng, khách hàng sẽ được khách hàng theo đuổi. Thật là vui
+              quản lý tài sản từ phần tử. Hendrerit mauris id
+              TRONG Quis sit sit ultrices tincidunt Euismod luctus diam. Xấu xí
+              các thành viên của bệnh viện thậm chí còn có hồ Phasellus vào thời điểm đó. Bây giờ nó sẽ trở nên xấu xí, không
+              đôi khi đại chúng là phim hoạt hình. Anh ấy không phải là tác giả của bất kỳ căn bệnh nào
+              để lại tài sản Ngày mai bạn sẽ chơi bóng đá. Anh ấy cần phải đói
+              thời gian nhưng đôi khi phải trả giá bằng mạng sống. Không phải số đông, đầu tư bây giờ là
+              khôn ngoan Đã đến lúc trang trí giường của tôi. Nibh Euismod cho đến khi đạt đến giới thượng lưu
+              đặt một số lo ngại vào kết quả của chính sách. Để trang trí
+              do đó, vulputate sit maecenas mauris urna sed fringilla. Bình đựng tro
+              men được bắn bằng ống rung;
+              Thật dễ dàng để một vulputate đầu tư vào phụ nữ mang thai.
             </p>
             <h5>Sed do eiusmod tempor incididunt ut labore</h5>
             <p>

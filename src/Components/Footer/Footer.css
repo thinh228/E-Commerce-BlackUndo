@@ -9,9 +9,10 @@
 
 .footer__container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 180px;
   padding-top: 50px;
+
 }
 
 .footer_left {

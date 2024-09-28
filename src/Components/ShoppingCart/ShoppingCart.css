@@ -26,7 +26,8 @@
   background: none;
   border: none;
   border-bottom: 2px solid #e4e4e4;
-  text-align: left;
+  border-left: 2px solid #e4e4e4;
+  text-align: left; 
   padding-bottom: 20px;
   outline: none;
   flex-grow: 1;
@@ -35,6 +36,7 @@
 
 .shoppingCartTabs button.active {
   border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
 }
 
 .shoppingCartTabs button:disabled {
@@ -151,7 +153,7 @@
 }
 
 .shoppingBagTableProductDetail a {
-  color: #000;
+  color: #bf0c0c;
   text-decoration: none;
 }
 
@@ -179,6 +181,7 @@
 .ShoppingBagTableQuantity input {
   width: 40px;
   height: 40px;
+  border-radius: 5px;
   text-align: center;
   border: none;
   outline: none;

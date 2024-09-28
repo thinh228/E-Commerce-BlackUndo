@@ -15,11 +15,7 @@ import Product_7_1 from "../Assets/Products/product_7-1.jpg";
 import Product_8 from "../Assets/Products/product_8.jpg";
 import Product_8_1 from "../Assets/Products/product_8-1.jpg";
 
-import limited1 from "../Assets/LimitedEdition/limited-1.jpg";
-import limited2 from "../Assets/LimitedEdition/limited-2.jpg";
-import limited3 from "../Assets/LimitedEdition/limited-3.jpg";
-import limited4 from "../Assets/LimitedEdition/limited-4.jpg";
-import limited5 from "../Assets/LimitedEdition/limited-5.jpg";
+
 
 let StoreData = [
   {
@@ -86,41 +82,7 @@ let StoreData = [
     productPrice: 37,
     productReviews: "4k+ reviews",
   },
-  {
-    productID: 9,
-    frontImg: limited1,
-    productName: "Hosking Blue Area Rug",
-    productPrice: 29,
-    productReviews: "8k+ reviews",
-  },
-  {
-    productID: 10,
-    frontImg: limited2,
-    productName: "Hanneman Pouf",
-    productPrice: 92,
-    productReviews: "5k+ reviews",
-  },
-  {
-    productID: 11,
-    frontImg: limited3,
-    productName: "Cushion Futon Slipcover",
-    productPrice: 25,
-    productReviews: "1k+ reviews",
-  },
-  {
-    productID: 12,
-    frontImg: limited4,
-    productName: "Hub Accent Mirror",
-    productPrice: 27,
-    productReviews: "7k+ reviews",
-  },
-  {
-    productID: 13,
-    frontImg: limited5,
-    productName: "Bold Male Black Analog",
-    productPrice: 39,
-    productReviews: "71+ reviews",
-  },
+  
 ];
 
 export default StoreData;

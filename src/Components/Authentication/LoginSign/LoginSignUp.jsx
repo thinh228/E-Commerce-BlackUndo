@@ -9,6 +9,7 @@ const LoginSignUp = () => {
     setActiveTab(tab);
   };
 
+
   return (
     <>
       <div className="loginSignUpSection">
